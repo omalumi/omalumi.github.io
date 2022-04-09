@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+}
+
+body {
+	color: white;
+    /* fallback */
+    background-color: #5a4d97;
+    
+    height: 100%;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: rgb(90, 77, 151);
+    background-image: -webkit-linear-gradient(top, rgb(90, 77, 151), rgb(63, 54, 107));
+    background-origin: padding-box;
+}
+
+.bodytext {
+    font: normal 100% "ff-amman-sans-web", "Verdana", sans-serif;
+}
+
+#allthethings {
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+.expedition h2 {
+    font-size: 1.5em;
+}
+
+#whoami {
+    position: relative;
+    float: left;
+    text-align: right;
+    text-shadow: 0.05em 0.05em 0.5em #c8c8c8;
+}
+
+#omalumi {
+    font-size: 2.5em;
+    font-family: "ff-ernestine-web-pro", "Georgia";
+    margin-top: 2%;
+    text-shadow: none;
+    width: 100%;
+}
+
+#expeditions {
+    position: relative;
+    float: left;
+}
+
+.expedition h2, a.appstore_header_link {
+    text-align: center;
+    display: block;
+    font-style: italic;
+}
+
+a.appstore_header_link {
+    margin-top: 2%;
+}
+
+.expedition p {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+a {
+    color: white;
+}
+
+img {
+    display: block;
+    clear: left;
+    margin-bottom: 1%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+        
+    #whoami {
+        width: 100%;
+        
+        text-align: center;
+        
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+    
+    #expeditions {
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    img {
+        margin: 0 auto;
+        margin-bottom: 1%;
+        max-width: 95%;
+        height: auto;
+    }
+        
+}
+
+@media screen and (min-width: 769px) {
+        
+    #allthethings {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    #whoami {
+        width: 23%;
+        
+        float: left;
+        
+        margin-top: 2%;
+        margin-right: 2%;
+        
+        text-align: right;
+    }
+    
+    #expeditions {
+        width: 568px;
+        
+        float: left;
+        
+        margin-left: 1.8%;
+        margin-top: 3%;
+    }
+}
